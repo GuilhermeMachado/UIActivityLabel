@@ -13,18 +13,8 @@
 		7982DCA11B62383B002570B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7982DC9F1B62383B002570B6 /* Main.storyboard */; };
 		7982DCA31B62383B002570B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7982DCA21B62383B002570B6 /* Images.xcassets */; };
 		7982DCA61B62383B002570B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7982DCA41B62383B002570B6 /* LaunchScreen.xib */; };
-		7982DCB21B62383B002570B6 /* UIActivityLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DCB11B62383B002570B6 /* UIActivityLabelDemoTests.m */; };
+		7982DCBE1B6238BC002570B6 /* UIActivityLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DCBD1B6238BC002570B6 /* UIActivityLabel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7982DCAC1B62383B002570B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7982DC8A1B62383B002570B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7982DC911B62383B002570B6;
-			remoteInfo = UIActivityLabelDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7982DC921B62383B002570B6 /* UIActivityLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +27,12 @@
 		7982DCA01B62383B002570B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7982DCA21B62383B002570B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7982DCA51B62383B002570B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7982DCAB1B62383B002570B6 /* UIActivityLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIActivityLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7982DCB01B62383B002570B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7982DCB11B62383B002570B6 /* UIActivityLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityLabelDemoTests.m; sourceTree = "<group>"; };
+		7982DCBC1B6238BC002570B6 /* UIActivityLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIActivityLabel.h; path = UIActivityLabel/UIActivityLabel.h; sourceTree = "<group>"; };
+		7982DCBD1B6238BC002570B6 /* UIActivityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIActivityLabel.m; path = UIActivityLabel/UIActivityLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7982DC8F1B62383B002570B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7982DCA81B62383B002570B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +45,8 @@
 		7982DC891B62383B002570B6 = {
 			isa = PBXGroup;
 			children = (
+				7982DCBB1B6238A8002570B6 /* UIActivityLabel */,
 				7982DC941B62383B002570B6 /* UIActivityLabelDemo */,
-				7982DCAE1B62383B002570B6 /* UIActivityLabelDemoTests */,
 				7982DC931B62383B002570B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				7982DC921B62383B002570B6 /* UIActivityLabelDemo.app */,
-				7982DCAB1B62383B002570B6 /* UIActivityLabelDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,21 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7982DCAE1B62383B002570B6 /* UIActivityLabelDemoTests */ = {
+		7982DCBB1B6238A8002570B6 /* UIActivityLabel */ = {
 			isa = PBXGroup;
 			children = (
-				7982DCB11B62383B002570B6 /* UIActivityLabelDemoTests.m */,
-				7982DCAF1B62383B002570B6 /* Supporting Files */,
+				7982DCBC1B6238BC002570B6 /* UIActivityLabel.h */,
+				7982DCBD1B6238BC002570B6 /* UIActivityLabel.m */,
 			);
-			path = UIActivityLabelDemoTests;
-			sourceTree = "<group>";
-		};
-		7982DCAF1B62383B002570B6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7982DCB01B62383B002570B6 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = UIActivityLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +112,6 @@
 			productReference = 7982DC921B62383B002570B6 /* UIActivityLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7982DCAA1B62383B002570B6 /* UIActivityLabelDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7982DCB81B62383B002570B6 /* Build configuration list for PBXNativeTarget "UIActivityLabelDemoTests" */;
-			buildPhases = (
-				7982DCA71B62383B002570B6 /* Sources */,
-				7982DCA81B62383B002570B6 /* Frameworks */,
-				7982DCA91B62383B002570B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7982DCAD1B62383B002570B6 /* PBXTargetDependency */,
-			);
-			name = UIActivityLabelDemoTests;
-			productName = UIActivityLabelDemoTests;
-			productReference = 7982DCAB1B62383B002570B6 /* UIActivityLabelDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +123,6 @@
 				TargetAttributes = {
 					7982DC911B62383B002570B6 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					7982DCAA1B62383B002570B6 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 7982DC911B62383B002570B6;
 					};
 				};
 			};
@@ -189,7 +140,6 @@
 			projectRoot = "";
 			targets = (
 				7982DC911B62383B002570B6 /* UIActivityLabelDemo */,
-				7982DCAA1B62383B002570B6 /* UIActivityLabelDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +155,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7982DCA91B62383B002570B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,26 +165,11 @@
 				7982DC9E1B62383B002570B6 /* ViewController.m in Sources */,
 				7982DC9B1B62383B002570B6 /* AppDelegate.m in Sources */,
 				7982DC981B62383B002570B6 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7982DCA71B62383B002570B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7982DCB21B62383B002570B6 /* UIActivityLabelDemoTests.m in Sources */,
+				7982DCBE1B6238BC002570B6 /* UIActivityLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7982DCAD1B62383B002570B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7982DC911B62383B002570B6 /* UIActivityLabelDemo */;
-			targetProxy = 7982DCAC1B62383B002570B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7982DC9F1B62383B002570B6 /* Main.storyboard */ = {
@@ -365,40 +293,6 @@
 			};
 			name = Release;
 		};
-		7982DCB91B62383B002570B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = UIActivityLabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityLabelDemo.app/UIActivityLabelDemo";
-			};
-			name = Debug;
-		};
-		7982DCBA1B62383B002570B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = UIActivityLabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityLabelDemo.app/UIActivityLabelDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,14 +310,6 @@
 			buildConfigurations = (
 				7982DCB61B62383B002570B6 /* Debug */,
 				7982DCB71B62383B002570B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		7982DCB81B62383B002570B6 /* Build configuration list for PBXNativeTarget "UIActivityLabelDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7982DCB91B62383B002570B6 /* Debug */,
-				7982DCBA1B62383B002570B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
