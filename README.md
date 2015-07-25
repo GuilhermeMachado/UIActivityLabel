@@ -1,11 +1,8 @@
 # UIActivityLabel
 
+An UILabel with UIActivityIndicatorView, useful for use in asynchronous requests.
+
 ![](https://github.com/GuilhermeMachado/UIActivityLabel/blob/master/Resources/demo.gif)
-
-
-### Features
-
-* 
 
 ### Usage
 
