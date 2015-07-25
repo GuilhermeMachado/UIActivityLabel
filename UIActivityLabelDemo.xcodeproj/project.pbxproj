@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		7982DC981B62383B002570B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DC971B62383B002570B6 /* main.m */; };
 		7982DC9B1B62383B002570B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DC9A1B62383B002570B6 /* AppDelegate.m */; };
-		7982DC9E1B62383B002570B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DC9D1B62383B002570B6 /* ViewController.m */; };
 		7982DCA11B62383B002570B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7982DC9F1B62383B002570B6 /* Main.storyboard */; };
 		7982DCA31B62383B002570B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7982DCA21B62383B002570B6 /* Images.xcassets */; };
 		7982DCA61B62383B002570B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7982DCA41B62383B002570B6 /* LaunchScreen.xib */; };
 		7982DCBE1B6238BC002570B6 /* UIActivityLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DCBD1B6238BC002570B6 /* UIActivityLabel.m */; };
+		7982DCC41B624945002570B6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982DCC31B624945002570B6 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,13 @@
 		7982DC971B62383B002570B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7982DC991B62383B002570B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7982DC9A1B62383B002570B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7982DC9C1B62383B002570B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7982DC9D1B62383B002570B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7982DCA01B62383B002570B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7982DCA21B62383B002570B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7982DCA51B62383B002570B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7982DCBC1B6238BC002570B6 /* UIActivityLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIActivityLabel.h; path = UIActivityLabel/UIActivityLabel.h; sourceTree = "<group>"; };
 		7982DCBD1B6238BC002570B6 /* UIActivityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIActivityLabel.m; path = UIActivityLabel/UIActivityLabel.m; sourceTree = "<group>"; };
+		7982DCC21B624945002570B6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7982DCC31B624945002570B6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +64,12 @@
 			children = (
 				7982DC991B62383B002570B6 /* AppDelegate.h */,
 				7982DC9A1B62383B002570B6 /* AppDelegate.m */,
-				7982DC9C1B62383B002570B6 /* ViewController.h */,
-				7982DC9D1B62383B002570B6 /* ViewController.m */,
 				7982DC9F1B62383B002570B6 /* Main.storyboard */,
 				7982DCA21B62383B002570B6 /* Images.xcassets */,
 				7982DCA41B62383B002570B6 /* LaunchScreen.xib */,
 				7982DC951B62383B002570B6 /* Supporting Files */,
+				7982DCC21B624945002570B6 /* TableViewController.h */,
+				7982DCC31B624945002570B6 /* TableViewController.m */,
 			);
 			path = UIActivityLabelDemo;
 			sourceTree = "<group>";
@@ -162,10 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7982DC9E1B62383B002570B6 /* ViewController.m in Sources */,
 				7982DC9B1B62383B002570B6 /* AppDelegate.m in Sources */,
 				7982DC981B62383B002570B6 /* main.m in Sources */,
 				7982DCBE1B6238BC002570B6 /* UIActivityLabel.m in Sources */,
+				7982DCC41B624945002570B6 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +312,7 @@
 				7982DCB71B62383B002570B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

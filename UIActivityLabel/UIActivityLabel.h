@@ -10,17 +10,23 @@
 
 @interface UIActivityLabel : UILabel
 
-@property (nonatomic) UIActivityIndicatorView *activityIndicatorView;
+typedef NS_ENUM (NSInteger, ActivityPosition) {
+    
+    ActivityPositionCenter = 0,
+    ActivityPositionLeft = 1,
+    ActivityPositionRight = 2
+    
+};
+
+-(void)setActivityViewColor:(UIColor *)color;
+-(void)setActivityPosition:(enum ActivityPosition)position;
 
 -(void)start;
 -(void)stop;
--(void)emptyTextAndStart;
+-(void)clearTextAndStart;
 
 +(void)startCollection:(NSArray *)collection;
 +(void)stopCollection:(NSArray *)collection;
-+(void)emptyTextAndStartCollection:(NSArray *)collection;
-
--(void)setActivityViewColor:(UIColor *)color;
--(void)setActivityViewLocation:(CGPoint)location;
++(void)clearTextAndStartCollection:(NSArray *)collection;
 
 @end
