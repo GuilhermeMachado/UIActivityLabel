@@ -1,6 +1,6 @@
 # UIActivityLabel
 
-![demo](https://raw.githubusercontent.com/GuilhermeMachado/UIActivityLabel/blob/master/Resources/demo.gif)
+![](https://github.com/GuilhermeMachado/UIActivityLabel/blob/master/Resources/demo.gif)
 
 
 ### Features
