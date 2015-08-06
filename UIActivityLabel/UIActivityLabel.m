@@ -21,6 +21,7 @@
 @property (nonatomic) NSLayoutConstraint *leftConstraint;
 @property (nonatomic) NSLayoutConstraint *rightConstraint;
 
+
 @end
 
 @implementation UIActivityLabel
@@ -153,6 +154,16 @@
         
         [label start];
         
+    }
+    
+}
+
+-(void)setText:(NSString *)text {
+    
+    [super setText:text];
+    
+    if (self.automaticStop) {
+        [self stop];
     }
     
 }

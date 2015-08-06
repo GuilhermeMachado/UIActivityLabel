@@ -18,6 +18,8 @@ typedef NS_ENUM (NSInteger, ActivityPosition) {
     
 };
 
+@property (nonatomic) BOOL automaticStop;
+
 -(void)setActivityViewColor:(UIColor *)color;
 -(void)setActivityPosition:(enum ActivityPosition)position;
 
