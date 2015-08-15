@@ -102,6 +102,21 @@
     
 }
 
+-(void)setAutomaticColor {
+    
+    self.activityIndicatorView.color = self.textColor;
+    
+}
+
++(void)setAutomaticColorForCollection:(NSArray *)collection {
+    
+    for (UIActivityLabel *label in collection) {
+        
+        label.activityIndicatorView.color = label.textColor;
+        
+    }
+}
+
 -(void)start {
     
     [self.activityIndicatorView startAnimating];

@@ -22,6 +22,8 @@ typedef NS_ENUM (NSInteger, ActivityPosition) {
 
 -(void)setActivityViewColor:(UIColor *)color;
 -(void)setActivityPosition:(enum ActivityPosition)position;
+-(void)setAutomaticColor;
++(void)setAutomaticColorForCollection:(NSArray *)collection;
 
 -(void)start;
 -(void)stop;
