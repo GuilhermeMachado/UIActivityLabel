@@ -1,5 +1,4 @@
-//
-//  AppDelegate.h
+utf-8;134217984ate.h
 //  UIActivityLabelDemo
 //
 //  Created by Guilherme Machado on 24/07/15.
