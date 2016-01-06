@@ -1,0 +1,10 @@
+PODS:
+  - UIActivityLabel (0.0.1)
+
+DEPENDENCIES:
+  - UIActivityLabel
+
+SPEC CHECKSUMS:
+  UIActivityLabel: 1046b098f359351b87eca1e09dd76a8d1280b93b
+
+COCOAPODS: 0.39.0

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y8Q-ny-zbg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y8Q-ny-zbg">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,8 +18,10 @@
                             <tableViewSection id="BAU-XM-d5B">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="WrA-U1-BSg">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WrA-U1-BSg" id="iyL-AK-Bk6">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <segmentedControl opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="MjG-i2-C1G">
@@ -42,8 +45,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Vqi-7D-w8G">
+                                        <rect key="frame" x="0.0" y="108" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vqi-7D-w8G" id="XgH-bQ-gKV">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bh-vg-t3q" customClass="UIActivityLabel">
@@ -65,8 +70,10 @@
                             <tableViewSection headerTitle="Collection" id="Pjc-1I-aqK">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="vr9-1J-qF2">
+                                        <rect key="frame" x="0.0" y="174" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vr9-1J-qF2" id="Ozi-tB-Jg0">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <segmentedControl opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="jyf-kp-qs3">
@@ -90,14 +97,16 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Cm9-GG-fIP">
+                                        <rect key="frame" x="0.0" y="218" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cm9-GG-fIP" id="fia-e5-pUl">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMo-Ga-xv8" customClass="UIActivityLabel">
-                                                    <rect key="frame" x="277" y="11" width="46" height="21"/>
+                                                    <rect key="frame" x="277" y="11" width="47" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="2bt-vD-d29"/>
+                                                        <constraint firstAttribute="width" constant="47" id="2bt-vD-d29"/>
                                                         <constraint firstAttribute="height" constant="21" id="m4I-lX-ATZ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -105,19 +114,19 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnX-7E-teZ" customClass="UIActivityLabel">
-                                                    <rect key="frame" x="546" y="11" width="46" height="21"/>
+                                                    <rect key="frame" x="546" y="11" width="47" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="ctr-6A-Zjc"/>
-                                                        <constraint firstAttribute="width" constant="46" id="iQk-od-afe"/>
+                                                        <constraint firstAttribute="width" constant="47" id="iQk-od-afe"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdd-Ii-fgv" customClass="UIActivityLabel">
-                                                    <rect key="frame" x="8" y="11" width="46" height="21"/>
+                                                    <rect key="frame" x="8" y="11" width="47" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="DuP-Jy-JlE"/>
+                                                        <constraint firstAttribute="width" constant="47" id="DuP-Jy-JlE"/>
                                                         <constraint firstAttribute="height" constant="21" id="I2U-ox-vBn"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -126,7 +135,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="qnX-7E-teZ" secondAttribute="trailing" id="3mS-Yp-Arz"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="qnX-7E-teZ" secondAttribute="trailing" constant="-1" id="3mS-Yp-Arz"/>
                                                 <constraint firstItem="tMo-Ga-xv8" firstAttribute="centerX" secondItem="fia-e5-pUl" secondAttribute="centerX" id="60H-F4-NwM"/>
                                                 <constraint firstItem="tMo-Ga-xv8" firstAttribute="baseline" secondItem="qnX-7E-teZ" secondAttribute="baseline" id="7P5-4x-hdd"/>
                                                 <constraint firstItem="Kdd-Ii-fgv" firstAttribute="centerY" secondItem="fia-e5-pUl" secondAttribute="centerY" id="8ec-5h-1Fz"/>

@@ -8,7 +8,7 @@
 
 #import "TableViewController.h"
 
-#import "UIActivityLabel.h"
+#import <UIActivityLabel.h>
 
 @interface TableViewController ()
 
