@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  "Custom UILabel with ActivityIndicator"
+
                    DESC
 
   s.homepage     = "https://github.com/GuilhermeMachado/UIActivityLabel"
@@ -39,7 +41,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/GuilhermeMachado/UIActivityLabel.git", :commit => "9cbf25f80d662f5bdd6283640b2e99f982804b07" }
+  s.source       = { :git => "https://github.com/GuilhermeMachado/UIActivityLabel.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
