@@ -24,6 +24,8 @@ Copy UIActivityLabel.h and UIActivityLabel.m to your project folder.
 
 #import "UIActivityLabel.h"
 
+```obj-c
+
 @interface TableViewController ()
 
 @property (strong, nonatomic) IBOutletCollection(UIActivityLabel) NSArray *labelCollection;
