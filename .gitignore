@@ -84,3 +84,4 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 *.xcuserstate
+.DS_Store
