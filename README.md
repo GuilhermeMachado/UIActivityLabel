@@ -22,7 +22,7 @@ Copy UIActivityLabel.h and UIActivityLabel.m to your project folder.
 * Default Color: Black
 * Default Positon: ActivityPositionCenter
 
-#### #import <<UIActivityLabel.h>>
+#### #import UIActivityLabel.h
 
 ```obj-c
 
