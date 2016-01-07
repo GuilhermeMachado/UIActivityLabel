@@ -4,12 +4,24 @@ An UILabel with UIActivityIndicatorView, useful for use in asynchronous requests
 
 ![](https://github.com/GuilhermeMachado/UIActivityLabel/blob/master/Resources/demo.gif)
 
+## Installation with CocoaPods
+
+#### Podfile iOS 8.0+
+
+```ruby
+platform :ios, '8.0'
+
+pod 'UIActivityLabel'
+```
+### Manually
+
+Copy UIActivityLabel.h and UIActivityLabel.m to your project folder.
+
 ### Usage
 
 * Default Color: Black
 * Default Positon: ActivityPositionCenter
 
-```obj-c
 #import "UIActivityLabel.h"
 
 @interface TableViewController ()
@@ -64,6 +76,3 @@ An UILabel with UIActivityIndicatorView, useful for use in asynchronous requests
 
 See more in UIActivityLabelDemo
 
-### Installation
-
-Copy UIActivityLabel.h and UIActivityLabel.m to your project folder.
