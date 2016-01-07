@@ -1,6 +1,6 @@
 # UIActivityLabel
 
-An UILabel with UIActivityIndicatorView, useful for use in asynchronous requests.
+An UILabel with UIActivityIndicatorView, useful in asynchronous requests.
 
 ![](https://github.com/GuilhermeMachado/UIActivityLabel/blob/master/Resources/demo.gif)
 
@@ -22,7 +22,7 @@ Copy UIActivityLabel.h and UIActivityLabel.m to your project folder.
 * Default Color: Black
 * Default Positon: ActivityPositionCenter
 
-#### #import <UIActivityLabel.h>
+#### #import <<UIActivityLabel.h>>
 
 ```obj-c
 
